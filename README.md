@@ -11,7 +11,6 @@
 Práctica de laboratorio sobre estructuras de datos de tipo **árbol**, implementada en **C++** y **Java**. 
 Se desarrollaron cinco ejercicios que cubren operaciones fundamentales sobre árboles N-arios y árboles binarios de búsqueda (BST).
 
----
 
 ## ⚙️ Cómo compilar y ejecutar
 
@@ -41,7 +40,8 @@ javac Ejercicio2_Binario.java Ejercicio5_Transformacion.java && java Ejercicio5_
 
 Se implementó una función recursiva que cuenta el total de nodos de un árbol donde cada nodo puede tener múltiples hijos.
 
-**Estrategia:** Se eligió recursividad porque el árbol N-ario es una estructura naturalmente recursiva: cada hijo es a su vez la raíz de un subárbol independiente.
+**Estrategia:** Se eligió recursividad porque el árbol N-ario es una estructura naturalmente recursiva: 
+cada hijo es a su vez la raíz de un subárbol independiente.
 
 - **Caso base:** si el puntero al nodo es `null`, no existe nodo que contar → retorna `0`.
 - Esto detiene la recursión cuando se agotan los hijos de una rama.
@@ -89,7 +89,6 @@ Se implementó el recorrido **izquierdo → raíz → derecho** que acumula los 
 - a la lista de resultados, y finalmente el subárbol **derecho** (todos los mayores). Al completar todas las llamadas, la lista contiene los valores en orden ascendente.
 Resultado esperado: 1 2 3 4 5 6 7
 
----
 
 ### Ejercicio 5 — Invertir un Árbol Binario (`invertir`)
 
